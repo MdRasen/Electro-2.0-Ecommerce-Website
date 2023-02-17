@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!----------
+<!----------
 Project Name: Electro 2.0 Ecommerce Website
 Description: A complete responsive e-commerce website design
              by using HTML CSS and JavaScript from scratch.
@@ -10,7 +10,7 @@ License: MIT License
 Copyright: 2023 ©MdRasen 
 ---------->
 
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,18 +19,76 @@ Copyright: 2023 ©MdRasen
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style-switcher.css" />
     <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
 
-  <body>
+<body>
     <!-- Main Container Start -->
-    <div class="main-container">Main</div>
+    <div class="main-container">
+        <!-- Header Section Start -->
+        <div class="header-section">
+            <!-- Header Top -->
+            <div class="header-top">
+                <div class="left">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> +021-95-51-84</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> email@email.com</a></li>
+                        <li><a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i> 1734 Stonecoal Road</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-dollar-sign"></i> USD</a></li>
+                        <li><a href="#"><i class="fa-solid fa-user"></i> My Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header Body -->
+            <div class="header-body">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="logo">
+                </div>
+                <div class="search-form">
+                    <form action="#">
+                        <select name="category">
+                            <option value="all-categories">All Categories</option>
+                            <option value="category-1">Category-1</option>
+                            <option value="category-2">Category-2</option>
+                        </select>
+                        <input type="search" name="input" placeholder="Search here">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="options">
+                    <div class="wishlist">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Your Wishlist</p>
+                    </div>
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Your Cart</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Bottom -->
+            <div class="header-bottom">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Hot Deals</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Cameras</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Header Section End -->
+    </div>
     <!-- Main Container End -->
     <!-- Custom JS -->
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
-  </body>
+</body>
+
 </html>
