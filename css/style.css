@@ -1,0 +1,42 @@
+/* 
+Project Name: Electro 2.0 Ecommerce Website
+Description: A complete responsive e-commerce website design
+             by using HTML CSS and JavaScript from scratch.
+Author: Md Al Amin Hossen
+Github: https://github.com/MdRasen
+License: MIT License
+Copyright: 2023 ©MdRasen
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --bg-black-200: #d10024;
+  --bg-black-100: #15161d;
+  --bg-black-50: #1e1f29;
+  --text-black-200: #2b2d42;
+  --text-black-100: #d10024;
+  --text-black-50: #8d99ae;
+}
+
+/* Global CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* Global CSS End */
