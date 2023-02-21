@@ -530,3 +530,77 @@ body {
 }
 
 /* Top Selling Section End */
+
+/* Newsletter Section Start */
+.newsletter-section {
+    padding: 60px 6%;
+    margin: 40px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid var(--text-50);
+}
+
+.newsletter-section .text {
+    font-size: 24px;
+    color: var(--text-200);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.newsletter-section .text span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.newsletter-section form input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    background: #fff;
+    color: var(--text-200);
+    border: 1px solid var(--text-50);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: -5px;
+}
+
+.newsletter-section form input:hover {
+    border: 2px solid var(--text-200);
+}
+
+.newsletter-section form button {
+    width: 130px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--bg-200);
+    color: #fff;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.newsletter-section .social-icons {
+    padding: 40px 0 0;
+}
+
+.newsletter-section .social-icons a {
+    text-decoration: none;
+    border: 0.2px solid var(--bg-50);
+    padding: 8px 10px;
+    margin: 0 4px;
+    color: var(--bg-100);
+    border-radius: 5px;
+}
+
+.newsletter-section .social-icons a:hover {
+    border: 0.2px solid var(--bg-200);
+    color: var(--text-100);
+}
+
+/* Newsletter Section End */
