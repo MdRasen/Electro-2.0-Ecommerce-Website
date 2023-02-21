@@ -463,7 +463,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 530px;
     margin: 40px 0;
 }
 
@@ -479,6 +479,7 @@ body {
 
 .banner-contents .count-down {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: #fff
@@ -522,3 +523,10 @@ body {
 }
 
 /* Banner Section End */
+
+/* Top Selling Section Start */
+.top-selling-section {
+    padding: 20px 6%;
+}
+
+/* Top Selling Section End */
