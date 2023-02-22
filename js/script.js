@@ -46,3 +46,18 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // Product Swiper End
+
+//Nav Toggler Start
+var sidemeu = document.getElementById("sidemenu");
+var close_bars = document.getElementById("close-bars");
+
+function openmenu() {
+  sidemeu.style.left = "0";
+  close_bars.classList.remove("close");
+}
+
+function closemenu() {
+  sidemeu.style.left = "-320px";
+  close_bars.classList.add("close");
+}
+//Nav Toggler End
